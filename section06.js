@@ -101,9 +101,21 @@ const numbers1 = {
         this._b = value;
         this.calculate();
     }
-}
+};
 
 numbers1.a = 5;
 numbers1.b = 7;
 
 console.log(numbers1.sum);
+
+const numbers3 = [10, 20, 30, 40, 50];
+
+const doggy = {
+    name0: '야옹이',
+    sound0: '냥',
+    age: 1
+};
+
+console.log(Object.entries(doggy));
+console.log(Object.keys(doggy));
+console.log(Object.values(doggy));
