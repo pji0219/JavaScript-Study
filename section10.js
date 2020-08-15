@@ -72,7 +72,7 @@ class Animal4 {
         this.sound = sound;
     }
     say() {
-        console.log(this.sound); // 자동으로 프로토타입으로 등록이 됨
+        console.log(this.sound); // 클래스 내에서 선언한 함수는 메서드라고 부르며 자동으로 프로토타입으로 등록이 됨
     }
 }
 
